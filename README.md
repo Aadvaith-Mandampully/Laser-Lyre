@@ -1,4 +1,4 @@
-# 🎵 Laser Lyre
+# Laser Lyre
 
 A contactless musical instrument that plays lyre notes when laser beams are interrupted — like plucking invisible strings. Built around an Arduino Nano and a DFPlayer Mini, it uses 8 LDR (light-dependent resistor) sensors to detect beam breaks and trigger pre-recorded audio tracks in real time.
 
@@ -10,7 +10,7 @@ A contactless musical instrument that plays lyre notes when laser beams are inte
 
 ---
 
-## 🎯 How It Works
+## How It Works
 
 Eight laser beams are aimed at eight LDR sensors arranged like the strings of a lyre. When a hand (or finger) passes through a beam, the corresponding LDR detects the drop in light and the Arduino triggers the DFPlayer Mini to play the matching note audio file from a microSD card.
 
@@ -18,7 +18,7 @@ On startup, the system **auto-calibrates** by reading each sensor 20 times and s
 
 ---
 
-## 🔩 Hardware
+## Hardware
 
 | Component | Details |
 |---|---|
@@ -35,7 +35,7 @@ On startup, the system **auto-calibrates** by reading each sensor 20 times and s
 
 ---
 
-## ⚡ Circuit Overview
+## Circuit Overview
 
 - Each LDR is wired in a **voltage divider** with a 10 kΩ pull-down resistor between +5 V and GND, with the midpoint connected to an analog pin (A0–A7).
 - The DFPlayer Mini communicates over **SoftwareSerial** (pins D10/D11) through a 1 kΩ resistor on the TX line.
@@ -60,7 +60,7 @@ Laser-Lyre/
 
 ---
 
-## 🖨️ 3D Files
+## 3D Files
 
 Printable enclosure and sensor mount parts are available in the **3D Models** folder:  
 👉 [3D Files – GitHub](https://github.com/Aadvaith-Mandampully/Laser-Lyre/tree/main/3D%20models)
@@ -81,7 +81,7 @@ Pre-recorded lyre note `.mp3` files for the SD card are available in the **SD ca
 
 ---
 
-## 💾 Software
+## Software
 
 ### Dependencies
 
@@ -107,7 +107,7 @@ Install these libraries via the Arduino Library Manager:
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 All tuneable parameters are at the top of `laser_lyre.ino`:
 
@@ -123,7 +123,7 @@ If beams are triggering too easily or not at all, adjust the calibration offset 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Print and assemble the frame using the 3D files.
 2. Wire the circuit as shown in the schematic.
