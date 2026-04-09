@@ -1,6 +1,6 @@
 # Laser Lyre
 
-A contactless musical instrument that plays lyre notes when laser beams are interrupted — like plucking invisible strings. Built around an Arduino Nano and a DFPlayer Mini, it uses 8 LDR (light-dependent resistor) sensors to detect beam breaks and trigger pre-recorded audio tracks in real time.
+A contactless musical instrument that plays lyre notes when laser beams are interrupted, like plucking invisible strings. Built around an Arduino Nano and a DFPlayer Mini, it uses 8 LDR (light-dependent resistor) sensors to detect beam breaks and trigger pre-recorded audio tracks in real time.
 
 ---
 
@@ -14,7 +14,7 @@ A contactless musical instrument that plays lyre notes when laser beams are inte
 
 Eight laser beams are aimed at eight LDR sensors arranged like the strings of a lyre. When a hand (or finger) passes through a beam, the corresponding LDR detects the drop in light and the Arduino triggers the DFPlayer Mini to play the matching note audio file from a microSD card.
 
-On startup, the system **auto-calibrates** by reading each sensor 20 times and setting a threshold 100 ADC units below the ambient average — so it adapts to your room's lighting conditions without any manual tuning.
+On startup, the system **auto-calibrates** by reading each sensor 20 times and setting a threshold 100 ADC units below the ambient average so it adapts to your room's lighting conditions without any manual tuning.
 
 ---
 
