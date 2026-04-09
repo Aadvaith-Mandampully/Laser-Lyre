@@ -4,7 +4,7 @@ A contactless musical instrument that plays lyre notes when laser beams are inte
 
 ---
 
-## 📸 Circuit Diagram
+##  Circuit Diagram
 
 ![Circuit Diagram](circuit_diagram.png)
 
@@ -46,7 +46,7 @@ See the full schematic in the  the diagram above.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 Laser-Lyre/
@@ -63,14 +63,14 @@ Laser-Lyre/
 ## 3D Files
 
 Printable enclosure and sensor mount parts are available in the **3D Models** folder:  
-👉 [3D Files – GitHub](https://github.com/Aadvaith-Mandampully/Laser-Lyre/tree/main/3D%20models)
+[3D Files – GitHub](https://github.com/Aadvaith-Mandampully/Laser-Lyre/tree/main/3D%20models)
 
 ---
 
-## 🎶 Audio Files
+## Audio Files
 
 Pre-recorded lyre note `.mp3` files for the SD card are available in the **SD card Files** folder:  
-👉 [Audio Files – GitHub](https://github.com/Aadvaith-Mandampully/Laser-Lyre/tree/main/SD%20card%20Files)
+ [Audio Files – GitHub](https://github.com/Aadvaith-Mandampully/Laser-Lyre/tree/main/SD%20card%20Files)
 
 ### SD Card Setup
 
@@ -92,7 +92,7 @@ Install these libraries via the Arduino Library Manager:
 
 ### Uploading
 
-> ⚠️ **Important:** This sketch targets the Arduino Nano with the **ATmega328P (Old Bootloader)**. When uploading, select:
+> **Important:** This sketch targets the Arduino Nano with the **ATmega328P (Old Bootloader)**. When uploading, select:
 >
 > - **Board:** Arduino Nano  
 > - **Processor:** ATmega328P **(Old Bootloader)**
@@ -131,7 +131,7 @@ If beams are triggering too easily or not at all, adjust the calibration offset 
 4. Upload the sketch to the Arduino Nano (old bootloader).
 5. Align the lasers so each beam hits its corresponding LDR.
 6. Power on — the Arduino will calibrate automatically on startup (takes ~1 second).
-7. Break a beam to play a note. 🎵
+7. Break a beam to play a note. 
 
 ---
 
